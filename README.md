@@ -1,0 +1,10 @@
+# RTOS-Brick-Breaker-Game
+
+This game is similar to the traditional brick breaker game. In this game, the objective would be to remove all the bricks that are present on the screen with the use of a paddle and a ball.  For simplicity sakes, the angle of incidence the ball makes with the paddle may equal the angle of reflection.  The ball will placed on the paddle and when the game starts the ball will move right 45 degrees above the horizontal.  The ball and the paddle must stay within the display panel.   The bricks will be displayed from the top of the screen all the way down to about the middle level of the screen. Throughout the game, as more bricks are destroyed or after a certain time frame of playing the user will have the option to introduce another ball to further destroy more bricks.   If all the balls present on the screen fall down, the user looses a life.  The user will have a maximum of two lives at the start of the game, and gain an additional life each time the user finishes a round.   Once the user uses all of the remaining lives, the game is over.   
+
+There are 3 tasks for this game.  One task will be used for moving the ball around.  Another task will be used to control the paddle and allow the paddle to move right and left.   The last task will be used to draw or erase the bricks depending on whether the user is moving to the next round or if the user hit the brick. 
+
+There are three peripherals that will be used as the input to the system and to interact with the game.   To control the movement of the paddle, the joystick will be used to move left and right on the same plane.  The LEDs will indicate the number of lives remaining (starting at two).  When the user pushes the INTO button a new ball appears if and only if the user broke a certain number of bricks and has stayed alive for a certain time frame.  This INTO button will also be used to start the game.  
+
+The reflection of the ball on the paddle can vary depending on which part of the paddle it touched.
+
